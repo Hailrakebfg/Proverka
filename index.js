@@ -1,4 +1,4 @@
-var audio = new Audio('./......');
+var audio = new Audio('./best.mp3');
 audio.volume = 0.6;
 
 audio.addEventListener('ended', function() {
@@ -8,6 +8,6 @@ audio.addEventListener('ended', function() {
 
 function showLove(){
     alert("ppl be groovin");
-    document.body.style.background = "url('dance4.gif') repeat";
+    document.body.style.background = "url('laba.gif') repeat";
     audio.play();
 }
